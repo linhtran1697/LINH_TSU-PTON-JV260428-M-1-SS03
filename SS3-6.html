@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<style>
+    table {
+        width: 50%;
+        border-collapse: collapse;
+        margin: 20px auto;
+        font-family: Arial, sans-serif;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+    /* Tạo hiệu ứng ô trong ô như hình */
+    .inner-box {
+        border: 1px solid #000;
+        padding: 10px;
+        display: block;
+    }
+</style>
+</head>
+<body>
+
+<table>
+    <thead>
+        <tr>
+            <th><span class="inner-box">Loại sản phẩm</span></th>
+            <th><span class="inner-box">Tên sản phẩm</span></th>
+            <th><span class="inner-box">Giá</span></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <!-- Gộp 2 hàng cho cột Loại sản phẩm -->
+            <td rowspan="2"><span class="inner-box">Điện tử</span></td>
+            <td><span class="inner-box">Laptop</span></td>
+            <td><span class="inner-box">15.000.000</span></td>
+        </tr>
+        <tr>
+            <td><span class="inner-box">Điện thoại</span></td>
+            <td><span class="inner-box">8.000.000</span></td>
+        </tr>
+        <tr>
+            <td><span class="inner-box">Gia dụng</span></td>
+            <td><span class="inner-box">Máy giặt</span></td>
+            <td><span class="inner-box">5.000.000</span></td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
