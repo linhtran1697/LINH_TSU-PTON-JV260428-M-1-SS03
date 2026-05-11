@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang Liên Hệ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input,
+        input[type="email"],
+        textarea {
+            width: 300px;
+            padding: 5px;
+            border: 1px solid #ccc;
+        }
+        textarea {
+            width: 500px;
+            height: 150px;
+        }
+        button {
+            padding: 5px 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Liên Hệ Với Chúng Tôi</h2>
+
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="fullname">Họ và tên:</label>
+            <input type="text" id="fullname" name="fullname">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div class="form-group">
+            <label for="message">Tin nhắn:</label>
+            <textarea id="message" name="message"></textarea>
+        </div>
+
+        <button type="submit">Gửi</button>
+    </form>
+
+</body>
+</html>
