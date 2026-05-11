@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Tìm Kiếm Sản Phẩm</title>
+    <style>
+        body {
+            font-family: serif; /* Sử dụng font có chân giống trong hình */
+            margin: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+        input, select {
+            width: 300px;
+            padding: 5px;
+            border: 1px solid #767676;
+        }
+        button {
+            padding: 5px 15px;
+            cursor: pointer;
+        }
+        h1 {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Tìm Kiếm Sản Phẩm</h1>
+
+    <form action="#" method="GET">
+        <div class="form-group">
+            <label for="keyword">Từ khóa tìm kiếm:</label>
+            <input type="text" id="keyword" name="keyword">
+        </div>
+
+        <div class="form-group">
+            <label for="category">Loại sản phẩm:</label>
+            <select id="category" name="category">
+                <option value="dien-tu">Điện tử</option>
+                <option value="gia-dung">Gia dụng</option>
+                <option value="thoi-trang">Thời trang</option>
+            </select>
+        </div>
+
+        <button type="submit">Tìm kiếm</button>
+    </form>
+
+</body>
+</html>
